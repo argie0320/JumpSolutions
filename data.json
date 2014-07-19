@@ -1,0 +1,142 @@
+[
+{
+	"company" : "Lenovo",
+	"product" : "Prius",
+	"date" : "Prius",
+	"client" : "Prius",
+	"color" : [
+	  "white pearl",
+	  "Red Methalic",
+	  "Silver Methalic"
+	],
+	"events": [
+            {
+				"title" : "HP EU EVENT",
+				"date" : "May 7, 2014",
+				"company" : "",
+				"description" : "",
+				"venue" : "Buddha Bar Manila",
+				"client" : "hp",
+				"source" : "",
+				"index"  : 0
+			},
+            {
+				"title" : "LENOVO EU EVENT",
+				"date" : "May 5, 2014",
+				"company" : "",
+				"description" : "",
+				"venue" : "My Cinema, Greenbelt 3",
+				"client" : "lenovo",
+				"source" : "",
+				"index"  : 0
+			},
+			{
+				"title" : "Technology JUMP-Start With IBM & Jump Solutions, Inc.",
+				"date" : "June 26, 2013",
+				"company" : "",
+				"description" : "",
+				"venue" : "Mandarin Oriental Manila",
+				"client" : "ibm",
+				"source" : "",
+				"index"  : 0
+			},
+			{
+				"title" : "Lunch & Learn Product Session with IBM & Jump Solutions",
+				"date" : "October 7, 2013",
+				"company" : "",
+				"description" : "",
+				"venue" : "Bubba Gump Restaurant Gump House Function Room",
+				"client" : "ibm",
+				"source" : "",
+				"index"  : 0
+			},
+			{
+				"title" : "HP Tech & Treats End User Event with MSI-ECS, Phils.",
+				"date" : "November 13, 2013",
+				"company" : "",
+				"description" : "",
+				"venue" : "Old Swiss Inn Restaurant",
+				"client" : "hp & msi",
+				"source" : "",
+				"index"  : 0
+			}
+        ],
+	"products" : [
+			{
+				"core" :[
+				          {
+				           "hp": [ { "log":" "  }],
+				           "lenovo": [ { "log":" "  }],
+				           "vmware": [ { "log":" "  }],
+				           "ibm": [ { "log":" "  }],
+				           "cisco": [ { "log":" "  }],
+				           "apc": [ { "log":" "  }],
+				           "dell": [ { "log":" "  }],
+				           "avaya": [ { "log":" "  }],
+				           "epson": [ { "log":" "  }],
+				           "panduit": [ { "log":" "  }],
+				           "acer": [ { "log":" "  }],
+				           "emerson": [ { "log":" "  }],
+				           "microsoft": [ { "log":" "  }],
+				           "3m": [ { "log":" "  }],
+				           "samsung": [ { "log":" "  }]
+				          }
+				        ],
+				"datacenter" : [ 
+				          {
+				  
+				          }
+				        ],
+				"networking" : [
+				          {
+				            "cisco": [ { "log":" "  }],
+				            "hp": [ { "log":" "  }],
+				            "ruckus": [ { "log":" "  }]
+				          }
+				        ],
+				"pc" : [
+				          {
+				            "acer": [ { "log":" "  }],
+				            "dell": [ { "log":" "  }],
+				            "hp": [ { "log":" "  }],
+				            "lenovo": [ { "log":" "  }],
+				            "toshiba": [ { "log":" "  }]
+				          }
+				        ],
+				"server" : [    
+				          {
+				            "acer": [ { "log":" "  }],
+				            "cisco": [ { "log":" "  }],
+				            "dell": [ { "log":" "  }],
+				            "hp": [ { "log":" "  }],
+				            "ibm": [ { "log":" "  }],
+				            "lenovo": [ { "log":" "  }]
+				          }
+				        ],
+				"storage" : [ 
+				          {
+				            "hp": [ { "log":" "  }],
+				            "ibm": [ { "log":" "  }]
+				          }
+				        ],
+				"supplies" : [  
+				          {
+				            "canon": [ { "log":" "  }],
+				            "epson": [ { "log":" "  }],
+				            "hp": [ { "log":" "  }]
+				          }
+				        ],
+				"virtualization" : [
+				          {
+				            "vmware": [ { "log":" "  }]
+				          }
+				        ]
+			}
+	
+	],
+	"type" : "Gen-3"
+},
+{
+}
+]
+

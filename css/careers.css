@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* CSS Document */
+
+#careers{
+	max-width:1100px;
+	margin:auto;
+}
+
+#careers form{
+	width:100%;
+	background:#000;
+	margin:10px 0;
+}
+
+
+#careers input[type="text"]{
+	margin:0px 0px 20px 0px;
+	width:80%;
+	height:30px;
+	text-indent:10px;
+	border:3px solid #d5d5d5;
+	border-radius:3px;
+}
+
+
+#careers input[type="file"]{
+	margin:0px 0px 20px 0px;
+	width:80%;
+	height:30px;
+	text-align:justify;
+	border:3px solid #d5d5d5;
+	border-radius:3px;
+}
+
+#careers input[type="submit"]{
+	border-radius:3px;
+	background:#F00;
+	padding:10px 27px;
+	margin:0px 20px 0px 0px;
+	color:#FFF;
+	font-weight:bold;
+	cursor:pointer;
+}
+
+#careers input[type="submit"]:hover{
+	background:#69F;
+}

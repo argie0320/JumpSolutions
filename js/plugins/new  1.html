@@ -1,0 +1,139 @@
+<html>
+	<head>
+    	<script type="text/javascript" src="file:///C|/xampp/htdocs/JumpSolutions/v11/js/jquery-1.10.2.min.js"></script>
+
+        <script type="text/javascript" src="owl.carousel.js"></script>
+        
+        <link rel="stylesheet" type="text/css" href="assets/owl.carousel.css" />
+		<script>
+            $(document).ready(function() {
+              $('.related-events').owlCarousel({
+                loop: true,
+                margin: 10,
+                responsiveClass: true,
+                responsive: {
+                  0: {
+                    items: 1,
+                    nav: true
+                  },
+                  600: {
+                    items: 3,
+                    nav: false
+                  },
+                  1000: {
+                    items: 4,
+                    nav: true,
+                    loop: false,
+                    margin: 20
+                  }
+                }
+              });
+			  var prev = $('.related-events .owl-controls .owl-nav .owl-prev');
+			  var next = $('.related-events .owl-controls .owl-nav .owl-next');
+			  
+			  prev.text('<').addClass('owl-nav');
+			  next.text('>').addClass('owl-nav');
+			  
+			  
+            })
+          </script>
+          
+          <style type="text/css">
+		  
+		  
+		  	
+			body,html{
+				background:#fefefe;
+			}
+			
+			.related-events{
+				max-width:1100px;
+				margin:auto;
+			}
+			
+			.related-events .owl-controls .owl-nav {
+				
+			}
+			
+			.owl-nav{
+				/*
+				background:#f03;
+				width:40px;
+				height:40px;
+				border-radius:7px;
+				text-align:center;
+				line-height:40px;
+				color:#FFF;
+				font-weight:bold;
+				font-size:28px;
+				
+			}
+			
+			.owl-prev{
+				left:0;
+			}
+			.owl-next{
+				right:0;
+			}
+			
+			.owl-nav:hover{
+				background:#000;
+			}
+		  	
+		  	.item{
+				background-color:#eaeaea;
+				height:200px;
+				border-radius:5px;
+			}
+		  	
+		  </style>
+    
+	</head>
+	
+	<body>
+		
+        <div class="related-events">
+            <div class="item">
+              <h4>1</h4>
+            </div>
+            <div class="item">
+              <h4>2</h4>
+            </div>
+            <div class="item">
+              <h4>3</h4>
+            </div>
+            <div class="item">
+              <h4>4</h4>
+            </div>
+            <div class="item">
+              <h4>5</h4>
+            </div>
+            <div class="item">
+              <h4>6</h4>
+            </div>
+            <div class="item">
+              <h4>7</h4>
+            </div>
+            <div class="item">
+              <h4>8</h4>
+            </div>
+            <div class="item">
+              <h4>9</h4>
+            </div>
+            <div class="item">
+              <h4>10</h4>
+            </div>
+            <div class="item">
+              <h4>11</h4>
+            </div>
+            <div class="item">
+              <h4>12</h4>
+            </div>
+          </div>
+        
+		
+		
+	</body>
+	
+
+</html>

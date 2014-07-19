@@ -1,0 +1,109 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+#contact{
+	max-width:1100px;
+	margin:auto;
+}
+
+#contact iframe{
+	width:100%;
+	height:300px;
+	margin:40px 0;
+}
+
+#contact * {
+	color:#888;
+}
+
+#contact > div{
+	margin:20px 0;
+	
+}
+
+#contact #cinfo{
+	float:left;
+	width:30%;
+}
+
+#contact #cinfo p{
+	width:100%;
+}
+
+#contact  #cform{
+	float:right;
+	width:70%;
+}
+
+#contact input[type="text"]{
+	margin:0px 0px 20px 0px;
+	width:49.3%;
+	height:40px;
+	text-indent:10px;
+	border:3px solid #d5d5d5;
+	border-radius:3px;
+}
+
+#contact textarea{
+	margin:0px 0px 20px 0px;
+	width:100%;
+	border:3px solid #d5d5d5;
+	text-indent:10px;
+	padding:10px 0 0 0;
+	border-radius:3px;
+}
+
+#contact button{
+	border-radius:3px;
+	background:#F00;
+	padding:10px 27px;
+	margin:0px 20px 0px 0px;
+	color:#FFF;
+	font-weight:bold;
+	cursor:pointer;
+}
+
+#contact button:hover{
+	background:#69F;
+}
+
+@media only screen and (max-width:800px){
+	
+	#contact #cinfo{
+		float:none;
+	width:70%;
+	margin:auto;
+	text-align:center;
+}
+
+#contact  #cform{
+	float:none;
+	width:80%;
+	margin:20px auto;
+}
+
+#contact  #cform h2{
+	width:80%;
+	margin:auto;
+	text-align:center;
+}
+
+#contact  #cform input[type="text"]{
+	width:100%;
+	margin:20px auto;
+}
+
+#contact button{
+	margin:10px 0px;
+}
+
+.iname{
+	width:45%;margin-right:5%;
+}
+ 
+.iaddress{
+	width:45%;margin-right:5%;
+}
+
+}

@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face{
+	font-family:Helvetica Neue UltraLight;
+	src:url(../font/Helvetica%20Neue%20UltraLight.ttf);
+}
+
+@font-face{
+	font-family:UnicodSans-CondensedLight;
+	src:url(../font/UnicodSans-CondensedLight.woff);
+}
+
+@font-face{
+	font-family:Existence-UnicaseLight;
+	src:url(../font/Existence-UnicaseLight.otf);
+}
+
+@font-face{
+	font-family:JosefinSans-Light;
+	src:url(../font/JosefinSans-Light.ttf);
+}
+
+@font-face{
+	font-family:JosefinSans-SemiBold;
+	src:url(../font/JosefinSans-SemiBold.ttf);
+}
+
+@font-face{
+	font-family:JosefinSans-Bold;
+	src:url(../font/JosefinSans-Bold.ttf);
+}
+
+@font-face{
+	font-family:Aliquam;
+	src:url(../font/Aliquam.ttf);
+}
+
+@font-face{
+	font-family:Armata-Regular;
+	src:url(../font/Armata-Regular.ttf);
+}
